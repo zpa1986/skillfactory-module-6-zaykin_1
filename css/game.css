@@ -1,0 +1,31 @@
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(6, 8vw);
+    grid-template-rows: repeat(6, 8vw);
+    grid-gap: 0.5vw;
+ }
+.grid-item {
+  	background-color: orange;
+}
+
+
+.target {
+  display:flex;
+  background-color: green;
+  color: white;
+  font-weight: bold;	
+  font-size: 4vw;
+  align-items: center;
+  justify-content: center
+}
+
+.miss {
+  background-color: red;
+}
+
+.btn-position {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 50vw;
+}
